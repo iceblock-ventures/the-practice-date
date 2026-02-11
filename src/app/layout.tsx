@@ -15,12 +15,21 @@ export const metadata: Metadata = {
     url: "https://thepracticedate.com",
     siteName: "The Practice Date",
     type: "website",
+    images: [
+      {
+        url: "https://thepracticedate.com/og.png",
+        width: 1536,
+        height: 1024,
+        alt: "The Practice Date — Practice flirting. Get real feedback.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Practice Date — AI Flirt Coach",
     description:
       "Practice flirting with an AI voice coach. Get real feedback on your conversation skills.",
+    images: ["https://thepracticedate.com/og.png"],
   },
 };
 
